@@ -27,7 +27,9 @@ is
       is
       begin
 	 Job := J;
-	 J := J - 1;
+	 if J > 0 then
+	    J := J - 1;
+	 end if;
       end Get;
    end Jobs;
    
