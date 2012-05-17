@@ -60,12 +60,3 @@ is
 begin
    null; --  We're not using the main environment task for anything.
 end Concurrent;
-
-
-
-
-
-
-
-
-
