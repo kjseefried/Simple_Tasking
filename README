@@ -1,0 +1,14 @@
+This is simple example on how to use tasks and protected objects in Ada to
+solve the problem of counting 20 times to 1_000_000_000.
+
+The Sequential program solves it sequentially while the Concurrent solves it by
+starting a bunch of concurrent workers.
+
+To compile and execute:
+
+   $ cd sequential
+   $ gnatmake sequential.adb
+   $ time sequential
+
+Substitute "sequential" with "concurrent" in the above to try the concurrent
+program.

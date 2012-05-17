@@ -1,0 +1,8 @@
+sequential/*
+concurrent/*
+!sequential/*.adb
+!concurrent/*.adb
+
+# Do not track emacs temporary and backup files
+\#*#
+*~
